@@ -1,2 +1,9 @@
-package com.minhhieu.securityfullcourse.security;public class ApplicationSecurityConfig {
+package com.minhhieu.securityfullcourse.security;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+
+@Configuration
+@EnableWebSecurity
+public class ApplicationSecurityConfig {
 }
